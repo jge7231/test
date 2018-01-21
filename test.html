@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Autocomplete - Default functionality</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script>
+  $( function() {
+    
+	setTimeout(,1000) ;
+    
+  } );
+  function fade_in() { 
+  var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+$( "#tags" ).autocomplete({
+      source: availableTags
+    })
+} 
+  </script>
+</head>
+<body>
+ 
+<div class="ui-widget">
+  <textarea id="tags">
+</textarea>
+</div>
+ <div>print</div>
+<<<<<<< HEAD
+  <div>print</div> <div>print</div>
+=======
+  <div>print</div> <div>print</div> <div>print</div> <div>print</div> <div>print</div>
+>>>>>>> feture/test1
+</body>
+</html>
